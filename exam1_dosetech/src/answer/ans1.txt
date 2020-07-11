@@ -1,0 +1,13 @@
+<div>
+  <button class="greeting-button">Good Morning</button>
+  <button class="greeting-button">Good Afternoon</button>
+  <button class="greeting-button">Good Night</button>
+  <button class="dont-click-me">Don't Click Me</button>
+</div>
+
+
+<script type="text/javascript">
+  $(".greeting-button").on("click", function(event) {
+    alert(event.target.innerHTML)
+  })
+</script>
